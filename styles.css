@@ -1,22 +1,23 @@
 /* ===========================================================
    Craig Johnston — personal site
-   Warm & professional theme
+   FourSnow palette — cool blue theme (light)
+   #70a9f3 bright · #5682bb steel · #3a587f slate · #141f2c navy
    =========================================================== */
 
 :root {
-  --bg:        #fbf7f1;  /* warm cream */
-  --bg-alt:    #f3ece1;  /* deeper cream for alternating sections */
+  --bg:        #eef4fc;  /* pale blue */
+  --bg-alt:    #dde9f8;  /* deeper pale blue for alternating sections */
   --card:      #ffffff;
-  --ink:       #2c2723;  /* warm near-black */
-  --muted:     #6b6258;  /* warm gray, secondary text */
-  --accent:    #b5654a;  /* clay / terracotta */
-  --accent-dk: #934f3a;  /* darker clay for hover */
-  --gold:      #c89a5b;  /* soft secondary accent */
-  --border:    #e7ddd0;
+  --ink:       #141f2c;  /* deep navy text */
+  --muted:     #3a587f;  /* slate blue, secondary text */
+  --accent:    #5682bb;  /* steel blue */
+  --accent-dk: #3a587f;  /* slate blue for hover */
+  --gold:      #5682bb;  /* steel blue, tag/label accent */
+  --border:    #cfe0f4;  /* light blue border */
 
   --maxw: 960px;
   --radius: 14px;
-  --shadow: 0 10px 30px rgba(76, 56, 42, 0.08);
+  --shadow: 0 10px 30px rgba(20, 31, 44, 0.10);
 
   --font-head: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -69,7 +70,7 @@ a:hover { color: var(--accent-dk); }
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(251, 247, 241, 0.85);
+  background: rgba(238, 244, 252, 0.85);
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid var(--border);
 }

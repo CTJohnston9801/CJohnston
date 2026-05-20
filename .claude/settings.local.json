@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(open *)"
+      "Bash(open *)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' https://ctjohnston9801.github.io/)",
+      "Bash(echo \"root:      HTTP $\\(curl -s -o /dev/null -w '%{http_code}' https://ctjohnston9801.github.io/\\)\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' https://ctjohnston9801.github.io/CJohnston/)",
+      "Bash(echo \"CJohnston: HTTP $\\(curl -s -o /dev/null -w '%{http_code}' https://ctjohnston9801.github.io/CJohnston/\\)\")"
     ]
   }
 }

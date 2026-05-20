@@ -9,7 +9,7 @@ body { background: var(--bg-alt); }
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(243, 236, 225, 0.92);
+  background: rgba(221, 233, 248, 0.92);
   backdrop-filter: saturate(180%) blur(10px);
   border-bottom: 1px solid var(--border);
 }
