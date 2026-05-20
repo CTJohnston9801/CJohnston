@@ -3,10 +3,15 @@
 A simple, fast, static personal site (plain HTML/CSS/JS — no build step).
 
 ## Files
-- `index.html` — all page content (About, Projects, Experience, Contact)
-- `styles.css` — warm & professional theme
+- `index.html` — home page (About, Projects, Experience, Contact)
+- `resume.html` — full styled résumé (printable / save-as-PDF in the browser)
+- `styles.css` — warm & professional theme (shared)
+- `resume.css` — résumé-page layout + print styles
 - `script.js` — mobile menu, footer year, scroll-reveal
 - `favicon.svg` — "CJ" monogram icon
+
+The résumé was generated from a Word CV; that source `.docx` is kept local
+(see `.gitignore`) and is not published.
 
 ## Editing
 Open `index.html` and update the text directly. Look for the `<!-- ... -->`
