@@ -1,3 +1,6 @@
 # Local source documents — kept private, not published to the site
 *.docx
 foursnow.txt
+
+# Local Claude Code tooling config
+.claude/
