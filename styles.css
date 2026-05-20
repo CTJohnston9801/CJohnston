@@ -19,8 +19,8 @@
   --radius: 14px;
   --shadow: 0 10px 30px rgba(20, 31, 44, 0.10);
 
-  --font-head: "Fraunces", Georgia, "Times New Roman", serif;
-  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
 /* ----- Reset & base ----- */
